@@ -11,6 +11,7 @@
 .img{
     width: 330px;
     height: 500px;
+    visibility: initial;
 }
 .left{
     position: absolute;
@@ -73,4 +74,33 @@
     background-color: white;
     color: black;
     padding:10px
+}
+.none{
+    width: 330px;
+    height: 500px;
+    display: none;
+}
+.card:hover .img{
+    display: none;
+}
+.card:hover .none{
+    display: initial;
+}
+.container2{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40%;
+    min-width: 1070px;
+    position: relative;
+    display: inline-block;
+}
+#different{
+    position: absolute;
+    top: 77%;
+    left: 0%;
+    display: inline;
+    background-color: rgb(29, 170, 64);
+    color: white;
+    font-size: 13px;
+    padding:3px;
 }
