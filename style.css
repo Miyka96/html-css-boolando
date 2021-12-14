@@ -1,6 +1,6 @@
 .container{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     position: relative;
 }
 .card{
@@ -18,7 +18,7 @@
     }
 .center{
     position: absolute;
-    left: 33.3%;
+    left: 35%;
 }
 .right{
     position: absolute;
